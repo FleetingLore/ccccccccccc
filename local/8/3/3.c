@@ -20,7 +20,7 @@ int ReadScore(int score[]) {
     do {
         i += 1;
         printf("Input score:");
-        scanf("%d", score[i]);
+        scanf("%d", &score[i]);
     } while (score[i] >= 0);
 
     return i;
